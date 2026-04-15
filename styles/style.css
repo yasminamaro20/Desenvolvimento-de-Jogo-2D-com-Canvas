@@ -1,0 +1,97 @@
+body{
+    margin:0;
+}
+
+h1{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(245, 241, 14);
+    border: solid 3px rgb(245, 241, 14);
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+#life-bar{
+    position: fixed;
+    display: flex;
+    align-content: flex-start;
+    justify-items: left;
+    gap: 5px
+
+}
+
+#life-bar img{
+    width: 30px;
+    height: 30px;
+    background-image: url('../assets/player/idle/frame-1.png');
+    background-size: cover;
+    border: solid green;
+    border-radius: 10px;
+}
+
+#message-area{
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    top: 60%;
+    right: 30%;
+    left: 30%;
+}
+
+#message-area h2{
+    background-color: black;
+    background-image: radial-gradient(rgba(0, 150, 0, 0.75), black 120%);
+    font: 1.3rem Inconsolata, monospace;
+    color: rgb(245, 241, 14);
+    border-radius: 5px;
+    text-align: left;
+}
+
+canvas{
+    background-image: url('../assets/platform/sky.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: solid 10px brown;
+    
+}
+
+.level{
+    display:flex;
+    background-image: radial-gradient(rgba(0, 150, 0, 0.75), black 120%);
+}
+
+.up-down{
+    display:flex;
+    flex-direction: column;
+    width:40px;
+    height:20px;
+}
+
+#current-level{
+    padding:0px 10px;
+    color: white;
+}
+
+button {
+    color: rgb(245, 241, 14);
+    background-image: radial-gradient(rgba(0, 150, 0, 0.75), black 120%);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#start, #intro{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.front-image{
+    background-image: url('../assets/player/run/frame-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
