@@ -3,7 +3,7 @@
 <p>
 This is a 2d short "Super Mario like" game developed using HTML Canvas and Javascript Vanilla. 
 </p>
-<p><strong>To play the game:</strong></p>
+
 
 ## Story:
 Sky City was taken over by the evil Mechanical Fish Gang. Our rebel resistance is still acting there, but our communication has been lost and Dino was assigned to restore the signal and transmit the secret plans. He must travel as fast as he can through the enemy's soil avoiding direct contact with any of the gang members.
